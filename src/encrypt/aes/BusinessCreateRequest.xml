@@ -1,0 +1,34 @@
+<Message>
+<InstitutionID>[InstitutionID]</InstitutionID>
+<Security>
+<IV>[Initialization Vector]</IV>
+<AuthToken>[Encrypted Security Token]</AuthToken>
+</Security>
+<MessageRequest>
+<RequestID>[Unique request identifier from calling app]</RequestID>
+<BusinessCreate>
+<Info>
+<UserID>[LoginID of user making the request]</UserID>
+<UserType>2</UserType>
+</Info>
+<Data>
+<Business>
+<FIAdminApproval>[Request made by admin portal/user]</FIAdminApproval >
+<CompanyID>[Unique company identifier]</CompanyID>
+<CompanyName>[Company name]</CompanyName>
+<TaxID>[Encrypted Company tax id or number]</TaxID>
+<Address1>[Company address 1]</Address1>
+<Address2>[Company address 2]</Address2>
+<City>[Company city]</City>
+<State>[Company state]</State>
+<Zip>[Company zip]</Zip>
+<AccountNumber>[Company account number]</AccountNumber>
+<AccountType>[Company account type]</AccountType>
+<Email>[Company email]</Email>
+<WorkPhone>[Company work phone]</WorkPhone>
+<Fax>[Company fax]</Fax>
+</Business>
+</Data>
+</BusinessCreate>
+</MessageRequest>
+</Message>

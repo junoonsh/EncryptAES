@@ -1,0 +1,19 @@
+<Message>
+<InstitutionID>[InstitutionID]</InstitutionID>
+<Security>
+<IV>[IV]</IV>
+<AuthToken>[AuthToken]</AuthToken>
+</Security>
+<MessageRequest>
+<RequestID>[RequestID]</RequestID>
+<Session>
+<Info />
+<Data>
+<Subscriber>
+<CompanyID>[CompanyID]</CompanyID>
+<LoginID>[LoginID]</LoginID>
+</Subscriber>
+</Data>
+</Session>
+</MessageRequest>
+</Message>
